@@ -1,0 +1,16 @@
+.anime-card{
+    width: 400px;
+    background-color: rgb(9, 255, 0);
+    color: black;
+    padding:0 20px;
+}
+.anime-card__subtitlte{
+    text-align: center;
+    margin:0;
+    font-weight: 500;
+}
+.anime-card__author{
+    font-size: 30px;
+    margin:auto auto 20px;
+    text-align: center;
+}

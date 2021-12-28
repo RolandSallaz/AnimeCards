@@ -1,0 +1,3 @@
+export const FETCH_ANIME = 'CARDS/FETCH_ANIME';
+export const SHOW_LOADING = 'APP/SHOW_LOADING';
+export const HIDE_LOADING = 'APP/HIDE_LOADING';
