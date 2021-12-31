@@ -1,4 +1,4 @@
-import { FETCH_ANIME } from "./types";
+import { SET_ANIME } from "../types";
 
 const initialState = {
   animes: [],
@@ -6,7 +6,7 @@ const initialState = {
 
 export const animeReducer = (state = initialState, action) => {
   switch (action.type) {
-    case FETCH_ANIME:
+    case SET_ANIME:
       return { ...state, anime: action.payload };
     default:
       return state;

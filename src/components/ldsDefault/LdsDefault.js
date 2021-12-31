@@ -1,6 +1,6 @@
 import "./LdsDefault.css";
 
-export default function () {
+export default function LdsDefault () {
   return (
     <div className="lds-default">
       <div></div>

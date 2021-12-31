@@ -1,3 +1,4 @@
-export const FETCH_ANIME = 'CARDS/FETCH_ANIME';
+export const REQUEST_ANIME = 'CARDS/REQUEST_ANIME';
+export const SET_ANIME = 'CARDS/SET_ANIME';
 export const SHOW_LOADING = 'APP/SHOW_LOADING';
 export const HIDE_LOADING = 'APP/HIDE_LOADING';

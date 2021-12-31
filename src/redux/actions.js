@@ -1,19 +1,8 @@
-import { FETCH_ANIME, HIDE_LOADING, SHOW_LOADING } from "./types";
-import animeApi from "../utils/AnimeApi";
+import { REQUEST_ANIME, HIDE_LOADING, SHOW_LOADING } from "./types";
 
 export function fetchAnime() {
-  return async (dispatch) => {
-    dispatch(showLoader());
-    animeApi
-      .getTenQuotes()
-      .then((res) =>
-        dispatch({
-          type: FETCH_ANIME,
-          payload: res,
-        })
-      )
-      .catch((err) => console.log(err))
-      .finally(()=>dispatch(hideLoader()));
+  return {
+    type: REQUEST_ANIME,
   };
 }
 
