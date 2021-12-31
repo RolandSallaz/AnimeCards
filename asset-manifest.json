@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AnimeCards/static/css/main.8fe70be3.css",
+    "main.js": "/AnimeCards/static/js/main.df54a693.js",
+    "static/js/787.cfd8f164.chunk.js": "/AnimeCards/static/js/787.cfd8f164.chunk.js",
+    "index.html": "/AnimeCards/index.html",
+    "main.8fe70be3.css.map": "/AnimeCards/static/css/main.8fe70be3.css.map",
+    "main.df54a693.js.map": "/AnimeCards/static/js/main.df54a693.js.map",
+    "787.cfd8f164.chunk.js.map": "/AnimeCards/static/js/787.cfd8f164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fe70be3.css",
+    "static/js/main.df54a693.js"
+  ]
+}
